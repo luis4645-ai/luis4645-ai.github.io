@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="App information for BTC Paper Agent Alerts, a personal-use operational email notifier.">
+  <title>BTC Paper Agent Alerts</title>
+  <link rel="icon" href="brand.png" type="image/png">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="wordmark" href="./"><img src="brand.png" width="32" height="32" alt="">BTC Paper Agent Alerts</a>
+    <nav aria-label="Main navigation"><a href="./" aria-current="page">About</a><a href="privacy.html">Privacy</a><a href="terms.html">Terms</a></nav>
+  </header>
+  <main>
+    <p class="eyebrow">Personal-use application</p>
+    <h1>BTC Paper Agent Alerts</h1>
+    <p class="lead">Operational failure and recovery notifications for a privately operated Bitcoin paper-trading agent.</p>
+    <section>
+      <h2>What the app does</h2>
+      <p>A private server checks the paper agent's scheduled jobs, market-data collection, session completion, and backups. This notifier sends operational failure and recovery emails to its owner's configured Gmail address.</p>
+      <p>The website is an information page only. It has no account registration, Google sign-in, trading dashboard, or access to the private agent.</p>
+    </section>
+    <section>
+      <h2>Gmail access</h2>
+      <p>The notifier requests only <code>https://www.googleapis.com/auth/gmail.send</code> so it can send email on the owner's behalf. It does not request permission to read the inbox, manage messages, access contacts, or delete mail.</p>
+      <p>Google authorization is completed privately by the owner. This website never collects passwords, authorization codes, or API keys.</p>
+    </section>
+    <section>
+      <h2>Paper trading only</h2>
+      <p>The agent currently simulates trades. The email notifier does not execute trades or provide investment recommendations. This site publishes no balances, trades, performance results, or private diagnostics.</p>
+    </section>
+    <section>
+      <h2>Data and contact</h2>
+      <p>Read the <a href="privacy.html">Privacy Policy</a> for data use, storage, retention, and revocation details, and the <a href="terms.html">Terms of Use</a> for the app's personal-use scope.</p>
+      <p>Maintained by <a href="https://github.com/luis4645-ai">luis4645-ai</a>. Contact: <a href="mailto:luis4645@gmail.com">luis4645@gmail.com</a>.</p>
+    </section>
+  </main>
+  <footer><span>BTC Paper Agent Alerts</span><span>Updated October 9, 2026</span></footer>
+</body>
+</html>
